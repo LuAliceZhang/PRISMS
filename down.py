@@ -3,8 +3,8 @@ import os
 ftp_addr='ftp.airnowapi.org'
 f=FTP(ftp_addr)
 
-user='SPATIAL'
-password="PB13204062"
+user='USER'
+password="PWD"
 f.login(user,password)
 print f.getwelcome()
 f.cwd("GRIB2")
